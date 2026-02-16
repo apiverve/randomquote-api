@@ -217,8 +217,9 @@ from apiverve_randomquote.apiClient import RandomquoteAPIClient
 
 api = RandomquoteAPIClient("[YOUR_API_KEY]")
 
+# This API does not require a Query
+
 try:
-    # This API does not require a Query
     result = api.execute()
     print(result)
 finally:
