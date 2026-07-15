@@ -116,8 +116,8 @@ async function makeRequest() {
   "status": "ok",
   "error": null,
   "data": {
-    "quote": "Everyone can taste success when the going is easy, but few know how to taste victory when times get tough.",
-    "author": "Byron Pulsifer"
+    "quote": "Your sacred space is where you can find yourself again and again.",
+    "author": "Joseph Campbell"
   }
 }
 ```
