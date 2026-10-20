@@ -2,8 +2,9 @@ openapi: 3.0.4
 info:
   title: Random Quote
   description: >-
-    Random Quote is a simple tool for getting random quotes. It returns a random
-    quote from a collection of quotes.
+    Random Quote fetches a random quote and its author attribution on every
+    call. Send a GET request without parameters to receive quote text ready for
+    displays, dashboards, or daily messages.
   termsOfService: https://apiverve.com/terms/
   contact:
     name: APIVerve Support
@@ -18,7 +19,7 @@ servers:
 paths:
   /v1/randomquote:
     get:
-      summary: Get Random Quote
+      summary: Random Quote
       description: Get a random quote from a collection of quotes
       operationId: randomquote
       parameters: []
