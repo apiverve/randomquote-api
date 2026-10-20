@@ -1,7 +1,7 @@
 {
   "name": "@apiverve/randomquote",
-  "version": "1.2.0",
-  "description": "Random Quote is a simple tool for getting random quotes. It returns a random quote from a collection of quotes.",
+  "version": "1.2.2",
+  "description": "Random Quote fetches a random quote and its author attribution on every call. Send a GET request without parameters to receive quote text ready for displays, dashboards, or daily messages.",
   "main": "index.js",
   "types": "index.d.ts",
   "sideEffects": false,
@@ -23,7 +23,7 @@
     "directory": "npm"
   },
   "keywords": [
-    "random quotes", "random quote api", "random quote tool", "random quote software", "random quote service"
+    "random quote api", "random quotes api", "quotes api", "quote api", "free quote api"
   ],
   "author": {
     "name": "APIVerve",
@@ -34,7 +34,7 @@
   "bugs": {
     "url": "https://github.com/apiverve/randomquote-api/issues"
   },
-  "homepage": "https://apiverve.com/marketplace/randomquote?utm_source=npm&utm_medium=homepage",
+  "homepage": "https://apiverve.com/marketplace/randomquote?utm_source=npm&utm_medium=referral&utm_content=homepage",
   "devDependencies": {
     "mocha": "^11.0.1",
     "chai": "^5.1.2",
