@@ -1,13 +1,12 @@
 Random Quote API
 ============
 
-Random Quote is a simple tool for getting random quotes. It returns a random quote from a collection of quotes.
+Random Quote fetches a random quote and its author attribution on every call. Send a GET request without parameters to receive quote text ready for displays, dashboards, or daily messages.
 
-![Build Status](https://img.shields.io/badge/build-passing-green)
-![Code Climate](https://img.shields.io/badge/maintainability-B-purple)
-![Prod Ready](https://img.shields.io/badge/production-ready-blue)
 
-This is a Python API Wrapper for the [Random Quote API](https://apiverve.com/marketplace/randomquote?utm_source=pypi&utm_medium=readme)
+[![PyPI version](https://img.shields.io/pypi/v/apiverve-randomquote.svg)](https://pypi.org/project/apiverve-randomquote/)
+
+This is a Python wrapper for the [Random Quote API](https://apiverve.com/marketplace/randomquote?utm_source=pypi&utm_medium=referral&utm_content=readme)
 
 ---
 
@@ -29,8 +28,8 @@ pip3 install apiverve-randomquote
 
 ## Configuration
 
-Before using the randomquote API client, you have to setup your account and obtain your API Key.
-You can get it by signing up at [https://apiverve.com](https://apiverve.com?utm_source=pypi&utm_medium=readme)
+Before using the Random Quote API client, you have to setup your account and obtain your API Key.
+You can get it by signing up at [https://apiverve.com](https://apiverve.com?utm_source=pypi&utm_medium=referral&utm_content=readme)
 
 ---
 
@@ -60,7 +59,7 @@ except Exception as e:
 
 ## Usage
 
-The Random Quote API documentation is found here: [https://docs.apiverve.com/ref/randomquote](https://docs.apiverve.com/ref/randomquote?utm_source=pypi&utm_medium=readme).
+The Random Quote API documentation is found here: [https://docs.apiverve.com/ref/randomquote](https://docs.apiverve.com/ref/randomquote?utm_source=pypi&utm_medium=referral&utm_content=readme).
 You can find parameters, example responses, and status codes documented here.
 
 ### Setup
@@ -102,8 +101,8 @@ print(result)
   "status": "ok",
   "error": null,
   "data": {
-    "quote": "Everyone can taste success when the going is easy, but few know how to taste victory when times get tough.",
-    "author": "Byron Pulsifer"
+    "quote": "Your sacred space is where you can find yourself again and again.",
+    "author": "Joseph Campbell"
   }
 }
 ```
@@ -231,7 +230,7 @@ finally:
 
 ## Customer Support
 
-Need any assistance? [Get in touch with Customer Support](https://apiverve.com/contact?utm_source=pypi&utm_medium=readme).
+Need any assistance? [Get in touch with Customer Support](https://apiverve.com/contact?utm_source=pypi&utm_medium=referral&utm_content=readme).
 
 ---
 
@@ -242,12 +241,12 @@ Stay up to date by following [@apiverveHQ](https://twitter.com/apiverveHQ) on Tw
 
 ## Legal
 
-All usage of the APIVerve website, API, and services is subject to the [APIVerve Terms of Service](https://apiverve.com/terms?utm_source=pypi&utm_medium=readme) and all legal documents and agreements.
+All usage of the APIVerve website, API, and services is subject to the [APIVerve Terms of Service](https://apiverve.com/terms?utm_source=pypi&utm_medium=referral&utm_content=readme) and all legal documents and agreements.
 
 ---
 
 ## License
-Licensed under the The MIT License (MIT)
+Licensed under the MIT License (MIT)
 
 Copyright (&copy;) 2026 APIVerve, and EvlarSoft LLC
 
