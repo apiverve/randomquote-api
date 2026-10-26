@@ -1,6 +1,6 @@
 {
   "name": "@apiverve/randomquote",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Random Quote fetches a random quote and its author attribution on every call. Send a GET request without parameters to receive quote text ready for displays, dashboards, or daily messages.",
   "main": "index.js",
   "types": "index.d.ts",
